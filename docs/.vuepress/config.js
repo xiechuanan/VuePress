@@ -1,4 +1,18 @@
 module.exports = {
+  head: [
+    [
+      "script",
+      {},
+      `
+     var _hmt = _hmt || [];
+     (function() {
+       var hm = document.createElement("script");
+       hm.src = "https://hm.baidu.com/hm.js?73d5a8b04c811a588a4e32f6939f2e41";
+       var s = document.getElementsByTagName("script")[0]; 
+       s.parentNode.insertBefore(hm, s);
+     })();`,
+    ],
+  ],
   themeConfig: {
     logo: "/assets/img/login.jpg",
     nav: [
@@ -18,7 +32,8 @@ module.exports = {
     ],
 
     sidebar: {
-      "/后端/JAVA/": ['','基础'],
+      "/后端/JAVA/": ["", "基础"],
+      "/后端/PHP/": ["", "基础"],
 
       // fallback
       "/": ["about"],
