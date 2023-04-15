@@ -1,5 +1,5 @@
 <?php
-// $filename = 'README.md'; // 输入文件名
+// $filename = './Python/README.md'; // 输入文件名
 // $file = fopen($filename, 'r'); // 打开文件
 
 // if ($file) {
@@ -16,7 +16,7 @@
 //   echo "无法打开文件。";
 // }
 
-$dir = "网络安全"; // 输入目录名
+$dir = "云计算"; // 输入目录名
 $output = array(); // 初始化输出数组
 
 // 打开目录并循环读取文件和子目录
