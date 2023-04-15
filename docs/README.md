@@ -3,7 +3,7 @@ home: true
 #heroImage: /hero.png
 heroText: 基于ChatGPT 生成的技术博客
 tagline: 概括市场上主流的编程语言&技术文章
-actionText: 迫不及待 →
+actionText: 开始阅读 →
 actionLink: /zh/guide/
 features:
 - title: 基于 VuePress 开发
